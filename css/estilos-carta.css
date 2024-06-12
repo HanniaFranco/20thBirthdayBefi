@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(#219ebc, #337ea3, #8ecae6);
+}
+
+.email-container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.email-header {
+    background-color: #66a8eb;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #66a8eb;
+}
+
+.email-info {
+    flex: 1;
+}
+
+.email-info p {
+    margin: 5px 0;
+}
+
+.email-date p {
+    margin: 0;
+}
+
+.email-body {
+    padding: 20px;
+    color: #333333;
+}
+
+.email-body p {
+    margin: 10px 0;
+}
+
+.email-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.email-image img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.email-footer {
+    background-color: #f7f7f7;
+    color: #555555;
+    padding: 10px 20px;
+    border-top: 1px solid #cccccc;
+    text-align: right;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .email-header, .email-body, .email-footer {
+        padding: 15px;
+    }
+
+    .email-info p, .email-date p, .email-body p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .email-header, .email-body, .email-footer {
+        padding: 10px;
+    }
+
+    .email-info p, .email-date p, .email-body p {
+        font-size: 0.8em;
+    }
+}

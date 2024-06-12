@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(#219ebc, #337ea3, #8ecae6);
+}
+
+.encabezado {
+    color: #fff;
+}
+
+.inicio{
+    margin-top: 10%;
+}
+
+.imagen-inicio{
+    width: 40%;
+    height: 80%;
+    margin-left: 30%;
+}
+
+.bordered-image {
+    border: 10px solid #aacdf5; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    padding: 10px; /* Espacio entre imagen y borde */
+    background-color: #fff; /* Color de fondo del borde */
+}
